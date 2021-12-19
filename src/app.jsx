@@ -1,9 +1,10 @@
-import './app.css';
+import './app.scss';
+import Home from './home/home';
 
 function App() {
   return (
     <div className="App">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, doloremque voluptatum aperiam, necessitatibus illum ea maxime fugit eveniet amet consectetur optio accusamus molestias, labore eos ratione totam! Molestiae, suscipit ea
+      <Home></Home>
     </div>
   );
 }
