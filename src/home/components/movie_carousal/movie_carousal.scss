@@ -25,12 +25,18 @@
         }
 
         .arrow-left{
+            opacity: 0;
             height: 150px;
             width: 50px;
             background-color: rgba(255, 255, 255, 0.3);
             z-index: 100;
             position: absolute;
             left: 0px;
+            transition: all 500ms ease-in-out;
+
+            &.active{
+                opacity: 1;
+            }
         }
         .arrow-right{
             height: 150px;
