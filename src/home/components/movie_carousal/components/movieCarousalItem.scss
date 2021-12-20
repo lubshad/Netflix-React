@@ -1,0 +1,41 @@
+.carousal-items{
+    transition: all 500ms ease-in-out;
+    display: flex;
+    .carousal-item{
+        .carousal-item-image{
+            width: 300px;
+            height: 150px;
+            margin-inline: 10px;
+            background-color: white;
+            object-fit: cover;
+        }
+        .highlighted-carousal-item{
+            display: none;
+        }
+        &:hover{
+            .highlighted-carousal-item{
+                position: absolute;
+                display: block;
+                top: -50%;
+                width: 400px;
+                height: 300px;
+                background-color: white;
+                overflow: hidden;
+
+                .heighlighted-item-image{
+                    width: 100%;
+                    height: 60%;
+                    object-fit: cover;
+                }
+
+                .heighlighted-item-action-buttons{
+                    display: flex;
+                    .heighlighted-item-action-button{
+                        padding: 10px;
+                    }
+                }
+
+            }
+        }
+    }
+}
