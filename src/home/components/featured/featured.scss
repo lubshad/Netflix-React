@@ -1,0 +1,58 @@
+.featured{
+    z-index: 998;
+    height: 540px;
+    width: 100%;
+    position: relative;
+
+    .cover-image{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+
+    .movie-details{
+        padding-inline: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 540px;
+        width: 400px;
+        position: absolute;
+        top: 0px;
+
+        .movie-title{
+            color: white;
+
+        }
+
+        .movie-description{
+            color: white;
+        }
+
+        .action-buttons{
+            display: flex;
+
+            .action-button{
+                display: flex;
+                align-items: center;
+                cursor: pointer;
+                border-radius: 5px;
+                border: none;
+                padding-inline : 20px;
+                padding-block : 10px;
+                margin-right: 10px;
+            }
+
+            .action-text{
+                padding-inline: 5px;
+            }
+        }
+
+       
+    }
+
+
+
+
+}
