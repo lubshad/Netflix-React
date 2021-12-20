@@ -19,7 +19,7 @@
                 top: -50%;
                 width: 400px;
                 height: 300px;
-                background-color: white;
+                background-color: var(--main-color);
                 overflow: hidden;
 
                 .heighlighted-item-image{
@@ -33,6 +33,12 @@
                     .heighlighted-item-action-button{
                         padding: 10px;
                     }
+                }
+
+                .highlighted-item-description{
+                    padding: 10px;
+                    max-lines: 2;
+                    text-overflow: ellipsis;
                 }
 
             }
