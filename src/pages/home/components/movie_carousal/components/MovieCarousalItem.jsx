@@ -24,7 +24,7 @@ export default function MovieCarousalItem({ index }) {
             <div className="highlighted-carousal-item" style={{ left: left }}>
                 {isHovered && (
                     <>
-                    <video controls className="heighlighted-item-image" src={trailer} autoPlay={true} loop />
+                    <video className="heighlighted-item-image" src={trailer} autoPlay={true} loop />
                     </>
                 )}
                 <div className="heighlighted-item-action-buttons">
